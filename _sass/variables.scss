@@ -1,7 +1,7 @@
 $width-tiny: 15rem; //4bits
 $width-small: 30rem; //6bits
 $width-medium: 37.5rem; //8bits
-$width-wide: 57rem; //10bits
+$width-wide: 57rem; //12bits
 $ultra-wide: 67rem;
 
 // 🎌 Responsve mixin for bubbling up media queries, have a look at the layout partial to see how they're used 🎌
@@ -90,7 +90,11 @@ $cols16: (16 * ($column + $gutter) - $gutter) / $em;
 
 // 🎌Color Variables🎌
 
-$blue: #177aa6;
-$yellow: #a7a05e;
+$blue: #26B9D1;
+$yellow: #FDC608;
+$orange: #E9511D;
+$purple: #AC2485;
+$black: #333333;
+
 $red: #a24249;
 $gray: #a0a1b3;

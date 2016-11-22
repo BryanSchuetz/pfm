@@ -5,20 +5,16 @@
 <html>
 
   {% include head.html %}
- 
+
   <body>
     {% include svg_sprite.html %}
+    {% include header.html %}
     <div class="big-wrap">
-      {% include header.html %}
-
       <div class="page-content">
-        <div class="wrapper">
           {{ content }}
-        </div>
       </div>
-
-      {% include footer.html %}
     </div>
+    {% include footer.html %}
   </body>
 
 </html>

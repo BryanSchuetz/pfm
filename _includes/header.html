@@ -1,12 +1,18 @@
-<header class="site-header">
-  <nav class="cf">
-    <ul class="nav-list">
-      {% for page in site.pages %}
-        {% if page.layout == "page" %}
-          <li><a class="without-underline" href="{{ page.url }}">{{ page.title | upcase }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
-  <h1 class="page-title {% if page.title == 'Home' %} {% unless page.url contains 'page' %}animated zoomInDown {% endunless %}{% endif %}"><a class="site-title without-underline" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-</header>
+<div class="svg-wrap">
+    <svg class="logo-svg" viewBox="0 0 294 294" preserveAspectRatio="xMinYMax meet"><use xlink:href="#logo"></use></svg>
+</div>
+<div class="header-wrap">
+  <header class="site-header">
+    <nav class="cf">
+      <ul class="nav-list">
+        {% assign pages = site.pages | sort: "sort" | reverse %}
+        {% for page in pages %}
+          {% if page.layout == "page" %}
+            <li><a class="without-underline" href="{{ page.url }}">{{ page.title | upcase }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+    <h1><a href="/">The Centre for Development Results</a></h1>
+  </header>
+</div>
