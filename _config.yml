@@ -17,8 +17,8 @@ collections:
     output: false
 defaults:
 - scope:
-    path:
-      type: members
+    path: ''
+    type: members
   values:
     summary:
     logo-image: '200x200'
