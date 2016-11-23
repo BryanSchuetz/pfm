@@ -6,9 +6,9 @@
     <nav class="cf">
       <ul class="nav-list">
         {% assign pages = site.pages | sort: "sort" | reverse %}
-        {% for page in pages %}
-          {% if page.layout == "page" and page.sort > 0 %}
-            <li><a class="without-underline" href="{{ page.url }}">{{ page.title | upcase }}</a></li>
+        {% for node in pages %}
+          {% if node.layout == "page" and node.sort > 0 %}
+            <li><a class="without-underline {% if page.url contains node.url %}active{% endif %}" href="{{ node.url }}">{{ node.title | upcase }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>

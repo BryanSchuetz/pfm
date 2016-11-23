@@ -13,4 +13,4 @@ sort: 1
   {% unless forloop.last %}
 <hr>
   {% endunless %}
-{% endfor %} 
+{% endfor %}
