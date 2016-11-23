@@ -1,11 +1,12 @@
 ---
-title: Siteleaf/Jekyll
-url: http://siteleaf-jekyll.siteleaf.net
+title: Centre for Development Results
 timezone: America/New_York
+permalink: "/:title"
 collections:
   news:
     title: News
     output: true
+    permalink: "/news/:title"
   posts:
     title: Posts
     output: true
@@ -22,10 +23,6 @@ defaults:
   values:
     summary:
     logo-image: '200x200'
-gems:
-- jekyll-paginate
-paginate: 3
-paginate_path: "/page:num/"
 hilighter: rouge
 markdown: kramdown
 kramdown:

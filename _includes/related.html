@@ -1,7 +1,7 @@
-<h3>Theoretically Related Content:</h3>
+<h3>Related Content:</h3>
 <ul>
   {% assign news = site.news | sort: 'date' | reverse %}
-  {% for post in news | offset:1 %}
+  {% for post in news %}
     {% if post.url != page.url %}
       {% for tag in page.topics %}
         {% if post.topics contains tag %}
