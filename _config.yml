@@ -13,14 +13,14 @@ collections:
     title: Uploads
     output: true
   members:
-    title: members
+    title: Members
     output: false
 defaults:
 - scope:
     path: ''
-    type: members
+    type: Members
   values:
-    summary: 
+    summary:
     logo-image: 200x200
 permalink: "/:title"
 hilighter: rouge
@@ -35,7 +35,7 @@ exclude:
 description: 'Site for the Centre for Development Results
 
 '
-baseurl: 
+baseurl:
 destination: "./build"
 sass:
   style: compressed
