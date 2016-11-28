@@ -2,6 +2,9 @@
 title: Centre for Development Results
 timezone: America/New_York
 collections:
+  members:
+    title: Members
+    output: false
   news:
     title: News
     output: true
@@ -12,15 +15,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-  members:
-    title: Members
-    output: false
 defaults:
 - scope:
     path: ''
     type: members
   values:
-    summary:
+    summary: 
     logo-image: 200x200
 permalink: "/:title"
 hilighter: rouge
@@ -35,7 +35,7 @@ exclude:
 description: 'Site for the Centre for Development Results
 
 '
-baseurl:
+baseurl: 
 destination: "./build"
 sass:
   style: compressed
