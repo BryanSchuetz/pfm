@@ -3,6 +3,7 @@ title: Developing Trading Partners of the Future
 date: 2016-11-22 13:42:00 -05:00
 layout: post
 ---
+
 ![Photo of Priti Patel](/uploads/priti.jpg){:.float-left}In the wake of Brexit, the government has expressed its ambition to be an outward-facing, globally engaged Britain. The new Secretary of State for International Development, Priti Patel, has reaffirmed this ambition and been robust in her defense of aid in the national interest. The Secretary of State has also on a number of occasions expressed an interest in exploring how aid can be used to help develop new trading relationships with our overseas partners. The Government’s UK aid strategy states our aim is to tackle instability, promote economic development and build resilience in the interest of UK national security, boosting trade and investment and mitigating the impacts of migration, climate change and global pandemics.
 
 <!--more-->

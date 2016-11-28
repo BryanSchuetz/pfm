@@ -2,6 +2,7 @@
 title: Membership Information
 layout: page
 ---
+
 CDR members are progressively-minded companies that work in international development and who have the shared aspiration to shape the aid and development conversation in the UK. They must have substantive presence in the UK market and a commitment to:
 
 * Improving and demonstrating enhanced transparency, accountability, impact and value for money in their work

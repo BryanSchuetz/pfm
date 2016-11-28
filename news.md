@@ -4,6 +4,7 @@ date: 2015-11-06 18:37:00 -05:00
 layout: page
 sort: 1
 ---
+
 {% for article in site.news %}
   <div class="article">
     <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>

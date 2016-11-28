@@ -1,7 +1,6 @@
 ---
 title: Centre for Development Results
 timezone: America/New_York
-permalink: "/:title"
 collections:
   news:
     title: News
@@ -21,8 +20,9 @@ defaults:
     path: ''
     type: members
   values:
-    summary:
-    logo-image: '200x200'
+    summary: 
+    logo-image: 200x200
+permalink: "/:title"
 hilighter: rouge
 markdown: kramdown
 kramdown:
@@ -32,9 +32,10 @@ excerpt_separator: "<!--more-->"
 email: your-email@domain.com
 exclude:
 - ".gitignore"
-description: |
-  Site for the Centre for Development Results
-baseurl:
+description: 'Site for the Centre for Development Results
+
+'
+baseurl: 
 destination: "./build"
 sass:
   style: compressed
