@@ -5,4 +5,5 @@ position: 4
 layout: page
 sort: 1
 ---
+
   {% include news-list.html %}
