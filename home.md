@@ -1,7 +1,7 @@
 ---
 title: Home
+permalink: "/"
 layout: page
-permalink: /
 ---
 
 <h1>We Shape the Debate</h1>
