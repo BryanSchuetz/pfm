@@ -1,0 +1,42 @@
+---
+title: Centre for Development Results
+timezone: America/New_York
+collections:
+  members:
+    title: Members
+    output: false
+  news:
+    title: News
+    output: true
+    permalink: "/news/:title"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: members
+  values:
+    summary: 
+    logo-image: 200x200
+    link: 
+permalink: "/:title"
+hilighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+excerpt_separator: "<!--more-->"
+email: your-email@domain.com
+exclude:
+- ".gitignore"
+description: 'Site for the Centre for Development Results
+
+'
+baseurl: 
+destination: "./build"
+sass:
+  style: compressed

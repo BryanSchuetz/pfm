@@ -1,0 +1,76 @@
+// 🎌Use the web-font loader to hide the flash of unstyled text—if Google fonts goes down, serve the next font in the stack🎌
+
+body{
+  visibility: hidden;
+  line-height: 2rem;
+  color: $black;
+}
+.wf-inactive body{
+  visibility: visible;
+  font-family: 'ff-meta-serif-web-pro', Georgia, serif;
+  .page-title{
+    font-family: 'ff-meta-serif-web-pro', Georgia, serif;
+  }
+  h1, h2, h3, h4{
+    font-family: 'futura-pt', helvetica, sans-serif;
+  }
+}
+.wf-active body{
+  visibility: visible;
+  font-family: 'ff-meta-serif-web-pro', Georgia, serif;
+  .page-title{
+    font-family: 'ff-meta-serif-web-pro', Georgia, serif;
+  }
+  h1, h2, h3, h4{
+    font-family: 'futura-pt', helvetica, sans-serif;
+  }
+}
+.svg{
+  fill: currentColor;
+}
+nav a{
+  font-family: 'futura-pt', helvetica, sans-serif;
+  font-weight: 300;
+}
+nav a:hover{
+  border-bottom: 2px solid darken($blue, 10%);
+}
+.page-content a{
+  color: $blue;
+  text-decoration: none;
+  border-bottom: 2px solid $blue;
+  transition: all .6s ease-in-out;
+}
+.page-content a:hover{
+  color: darken($blue, 20%);
+  border-bottom: 2px solid darken($blue, 20%);
+}
+// 🎌Navigational Links🎌
+.more a{
+  font-family: 'futura-pt', helvetica, sans-serif;
+}
+header h1{
+  font-weight: 300;
+  text-transform: uppercase;
+}
+h2, h3{
+  font-weight: 700;
+}
+.page-content{
+  h1{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .post-title{
+    text-transform: none;
+  }
+}
+p.lead-in{
+  font-size: 1.2rem;
+}
+// 🎌Content🎌
+
+// 🎌Content Links🎌

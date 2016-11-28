@@ -1,0 +1,18 @@
+<div class="svg-wrap">
+    <svg class="logo-svg" viewBox="0 0 294 294" preserveAspectRatio="xMinYMax meet"><use xlink:href="#logo"></use></svg>
+</div>
+<div class="header-wrap">
+  <header class="site-header">
+    <nav class="cf">
+      <ul class="nav-list">
+        {% assign pages = site.pages | sort: "sort" | reverse %}
+        {% for node in pages %}
+          {% if node.layout == "page" and node.sort > 0 %}
+            <li><a class="without-underline {% if page.url contains node.url %}active{% endif %}" href="{{ node.url }}">{{ node.title | upcase }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+    <h1><a href="/">Centre for Development Results</a></h1>
+  </header>
+</div>
