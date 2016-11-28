@@ -1,6 +1,6 @@
 ---
 title: Membership Information
-position: 3
+position: 5
 layout: page
 ---
 

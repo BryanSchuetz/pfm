@@ -1,6 +1,7 @@
 ---
 title: We Shape the Debate
 permalink: "/"
+position: 0
 layout: page
 ---
 
