@@ -20,7 +20,7 @@ defaults:
     path: ''
     type: members
   values:
-    summary:
+    summary: 
     logo-image: 200x200
     link: 
 permalink: "/:title"
@@ -36,7 +36,7 @@ exclude:
 description: 'Site for the Centre for Development Results
 
 '
-baseurl:
+baseurl: 
 destination: "./build"
 sass:
   style: compressed
