@@ -31,8 +31,7 @@ defaults:
     type: publications
   values:
     file: 'URL to the pdf'
-    image: ''
-    summary:
+    image: '200x200'
 permalink: "/:title"
 hilighter: rouge
 markdown: kramdown
