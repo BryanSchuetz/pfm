@@ -29,8 +29,8 @@ defaults:
     path: ''
     type: publications
   values:
-    file_link: 'URL to the pdf'
-    thumbnail_image: ''
+    file: 'URL to the pdf'
+    image: ''
     summary:
 permalink: "/:title"
 hilighter: rouge
