@@ -23,16 +23,16 @@ defaults:
     path: ''
     type: members
   values:
-    summary:
+    summary: 
     logo-image: 200x200
-    link:
+    link: 
 - scope:
     path: ''
     type: publications
   values:
-    file: 'URL to the pdf'
+    file: URL to the pdf
     image: ''
-    summary:
+    summary: 
 permalink: "/:title"
 hilighter: rouge
 markdown: kramdown
@@ -46,7 +46,7 @@ exclude:
 description: 'Site for the Centre for Development Results
 
 '
-baseurl:
+baseurl: 
 destination: "./build"
 sass:
   style: compressed
