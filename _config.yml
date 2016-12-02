@@ -12,26 +12,27 @@ collections:
   posts:
     title: Posts
     output: true
+  publications:
+    title: Publications
+    output: true
   uploads:
     title: Uploads
-    output: true
-  publications:
     output: true
 defaults:
 - scope:
     path: ''
     type: members
   values:
-    summary:
+    summary: 
     logo-image: 200x200
-    link:
+    link: 
 - scope:
     path: ''
     type: publications
   values:
-    file_link: 'URL to the pdf'
+    file_link: URL to the pdf
     thumbnail_image: ''
-    summary:
+    summary: 
 permalink: "/:title"
 hilighter: rouge
 markdown: kramdown
@@ -45,7 +46,7 @@ exclude:
 description: 'Site for the Centre for Development Results
 
 '
-baseurl:
+baseurl: 
 destination: "./build"
 sass:
   style: compressed
