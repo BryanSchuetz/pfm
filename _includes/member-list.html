@@ -2,7 +2,7 @@
   <div class="member">
     <h2 class="member-title"><a href="{{ member.link }}">{{ member.title }}</a></h2>
     <img src="{{ member.logo-image }}" alt="" class="member-image">
-    <p class="member-summary">{{ member.summary }}</p>
+    <p class="member-summary">{{ member.content }}</p>
   </div>
   {% unless forloop.last %}
 <hr>
