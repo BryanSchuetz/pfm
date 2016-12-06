@@ -309,6 +309,29 @@ font-weight: 700;
 .big-button:hover{
   background-color: darken($blue, 10%);
 }
+
+.publication{
+  margin-bottom: 2rem;
+  @include clearfix;
+  img{
+  @include responsive(medium-screens){
+    width: 25%;
+    float: left;
+  }
+
+  }
+  .publication-summary{
+  @include responsive(medium-screens){
+    width: 70%;
+    float: right;
+  }
+
+  }
+  .publication-link{
+    text-align: right;
+    clear: both;
+  }
+}
 // 🎌The Footer🎌
 .colophon{
   text-align: center;
