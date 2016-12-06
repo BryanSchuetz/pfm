@@ -1,7 +1,7 @@
 ---
 title: The North Water
-file: /feh/fake-link.pdf
-image: /uploads/north-water.jpg
+file: "/feh/fake-link.pdf"
+image: "/uploads/north-water.jpg"
 layout: publication
 ---
 

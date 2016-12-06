@@ -5,6 +5,7 @@ position: 4
 layout: page
 sort: 3
 ---
+
 {% for pub in site.publications %}
   <div class="publication">
     <h2><a href="{{ pub.url }}">{{ pub.title }}</a></h2>

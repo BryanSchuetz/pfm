@@ -1,7 +1,7 @@
 ---
 title: War and Turpentine
-file: /feh/fake-link.pdf
-image: /uploads/turpentine.jpg
+file: "/feh/fake-link.pdf"
+image: "/uploads/turpentine.jpg"
 layout: publication
 ---
 

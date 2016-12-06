@@ -1,7 +1,7 @@
 ---
 title: The Vegitarian
-file: /feh/fake-link.pdf
-image: /uploads/the-vegitarian.jpg
+file: "/feh/fake-link.pdf"
+image: "/uploads/the-vegitarian.jpg"
 layout: publication
 ---
 

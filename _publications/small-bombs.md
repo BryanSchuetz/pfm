@@ -1,7 +1,7 @@
 ---
 title: The Association of Small Bombs
-file: /feh/fake-link.pdf
-image: /uploads/small-bombs.jpg
+file: "/feh/fake-link.pdf"
+image: "/uploads/small-bombs.jpg"
 layout: publication
 ---
 

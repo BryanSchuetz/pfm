@@ -1,7 +1,7 @@
 ---
 title: The Underground Railroad
-file: /feh/fake-link.pdf
-image: /uploads/underground-railroad.jpg
+file: "/feh/fake-link.pdf"
+image: "/uploads/underground-railroad.jpg"
 layout: publication
 ---
 
