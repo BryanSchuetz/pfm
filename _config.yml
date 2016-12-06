@@ -23,7 +23,6 @@ defaults:
     path: ''
     type: members
   values:
-    summary: 
     logo-image: 200x200
     link: 
 - scope:
