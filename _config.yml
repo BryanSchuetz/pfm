@@ -12,6 +12,9 @@ collections:
   posts:
     title: Posts
     output: true
+  publications:
+    title: Publications
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -23,6 +26,12 @@ defaults:
     summary: 
     logo-image: 200x200
     link: 
+- scope:
+    path: ''
+    type: publications
+  values:
+    file: URL to the pdf
+    image: 200x200
 permalink: "/:title"
 hilighter: rouge
 markdown: kramdown
