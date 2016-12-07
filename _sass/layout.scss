@@ -138,8 +138,12 @@ header{
   margin-top: 2rem;
 }
 .content-logo-svg{
-  width: 50%;
-  height: 50%;
+  width: 10rem;
+  height: 10rem;
+  @include responsive(medium-screens){
+    width: 20rem;
+    height: 20rem;
+  }
   display: block;
   margin-right: auto;
   margin-left: auto;
