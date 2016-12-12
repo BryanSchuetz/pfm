@@ -5,10 +5,7 @@ position: 0
 layout: page
 ---
 
-**The Centre for Development Results** is a new organisation supported by companies working in international development. We promote, support and represent the work and interest of UK international development companies, who have a shared aspiration to improve impact, accountability and value for money in their work.
-{:.lead-in}
-
-{% include aim-blocks.html %}
+<!-- <div class="content-logo"><svg class="content-logo-svg" viewBox="0 0 294 294" preserveAspectRatio="xMinYMax meet"><use xlink:href="#logo"></use></svg></div> -->
 
 # What We Do
 
@@ -23,5 +20,3 @@ layout: page
 ## Public Engagement
 
   We work to promote greater understanding of and engagement with the work member companies do amongst the public and key influencers. We aim to address misinformation and provide accurate evidence of the impacts of UK aid and development practice.
-
- 
