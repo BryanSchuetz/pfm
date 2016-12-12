@@ -9,6 +9,16 @@
   <body>
     {% include svg_sprite.html %}
     {% include header.html %}
+    {% if page.title == 'We Shape the Debate' %}
+    <div class="splash">
+      <div class="splash-wrap">
+      <h1>We Shape the Debate</h1>
+      <p class="lead-in">The Centre for Development Results is a new organisation supported by companies working in international development. We promote, support and represent the work and interest of UK international development companies, who have a shared aspiration to improve impact, accountability and value for money in their work.</p>
+
+      {% include aim-blocks.html %}
+      </div>
+    </div>
+    {% endif %}
     <div class="big-wrap">
       <div class="page-content">
           {{ content }}

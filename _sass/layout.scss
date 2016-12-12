@@ -7,7 +7,7 @@ hr{
 .page-content img{
   width: 100%;
 }
-.big-wrap, header, footer{
+.big-wrap, header, footer, .splash-wrap{
   padding-top: 2rem;
   padding-bottom: 2rem;
   @include clearfix;
@@ -46,7 +46,7 @@ hr{
     height: 220px;
   }
   @include responsive(medium-screens){
-    height: 273px;
+    height: 275px;
   }
   @include responsive(wide-screens){
     height: 244px;
@@ -218,10 +218,8 @@ img.member-image{
 .aim-blocks{
   @include clearfix;
   @include responsive(wide-screens){
-    border-top: 1px solid rgba($black, 0.3);
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border-bottom: 1px solid rgba($black, 0.3);
   }
 }
 .aim-block{
@@ -335,6 +333,13 @@ font-weight: 700;
     text-align: right;
     clear: both;
   }
+}
+.splash{
+  background: url("/uploads/splashy.jpg");
+  background-size: cover;
+}
+.splash-wrap{
+  color: white;
 }
 // 🎌The Footer🎌
 .colophon{
