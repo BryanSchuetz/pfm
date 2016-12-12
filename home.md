@@ -1,5 +1,5 @@
 ---
-title: We Shape the Debate
+title: CDR
 permalink: "/"
 position: 0
 layout: page

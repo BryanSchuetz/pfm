@@ -39,9 +39,9 @@ hr{
 }
 .svg-wrap{
   background-color: $black;
-  z-index: -1;
   width: 100%;
   height: 285px;
+  border-bottom: 2px solid $blue;
   @include responsive(small-screens){
     height: 220px;
   }
@@ -49,10 +49,9 @@ hr{
     height: 275px;
   }
   @include responsive(wide-screens){
-    height: 244px;
+    height: 234px;
   }
   position: absolute;
-  overflow: hidden;
 }
 .logo-svg{
   width: 20rem;
@@ -337,6 +336,8 @@ font-weight: 700;
 .splash{
   background: url("/uploads/splashy.jpg");
   background-size: cover;
+  z-index: 3;
+  border-bottom: 2px solid $blue;
 }
 .splash-wrap{
   color: white;
