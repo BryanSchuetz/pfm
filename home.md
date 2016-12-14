@@ -14,7 +14,7 @@ layout: page
 
 ## Influence and Advocacy
 
-  We work to shape the debate around aid and development and influence government policy and practice. We aim to work in partnership with the UK Government to better understand how our members can deliver impact and value for money in a transparent and accountable way.
+We work to shape the debate around aid and development and influence government policy and practice. We aim to work in partnership with the UK Government to better understand how our members can deliver impact and value for money in a transparent and accountable way.
 
 ## Thought Leadership & Policy Development
 
