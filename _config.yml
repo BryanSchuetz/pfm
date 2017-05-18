@@ -1,5 +1,5 @@
 ---
-title: Centre for Development Results
+title: Public Financial Management
 timezone: America/New_York
 collections:
   members:
@@ -24,7 +24,7 @@ defaults:
     type: members
   values:
     logo-image: 200x200
-    link: 
+    link:
 - scope:
     path: ''
     type: publications
@@ -44,7 +44,7 @@ exclude:
 description: 'Site for the Centre for Development Results
 
 '
-baseurl: 
+baseurl:
 destination: "./build"
 sass:
   style: compressed
