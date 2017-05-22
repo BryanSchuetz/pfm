@@ -1,0 +1,27 @@
+{
+  "name": "PFM",
+  "version": "1.0.0",
+  "description": "Overcoming policy and institutional constraints to economic competitiveness, socioeconomic development, and poverty reduction.",
+  "scripts": {
+    "serve": "browser-sync start --config browser-sync.js",
+    "build":"bundle exec jekyll build --watch --incremental",
+    "jekyllfy": "npm run build & npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanSchuetz/pfm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanSchuetz/pfm/issues"
+  },
+  "homepage": "https://github.com/BryanSchuetz/pfm#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.8"
+  },
+  "devDependencies": {
+
+  }
+}

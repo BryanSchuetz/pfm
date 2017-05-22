@@ -26,7 +26,7 @@ hr{
     @include width(12);
   }
   /*@include responsive(ultra-wide-screens){
-    @include width(14);
+    @include width(14); this is here
   }*/
   min-width: 16.5rem;
 }

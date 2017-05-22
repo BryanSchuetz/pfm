@@ -2,35 +2,13 @@
 title: Public Financial Management
 timezone: America/New_York
 collections:
-  members:
-    title: Members
-    output: false
-  news:
-    title: News
-    output: true
-    permalink: "/news/:title"
-  posts:
+  Pos:
     title: Posts
-    output: true
-  publications:
-    title: Publications
     output: true
   uploads:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-    type: members
-  values:
-    logo-image: 200x200
-    link:
-- scope:
-    path: ''
-    type: publications
-  values:
-    file: URL to the pdf
-    image: 200x200
 permalink: "/:title"
 hilighter: rouge
 markdown: kramdown
@@ -38,12 +16,10 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 excerpt_separator: "<!--more-->"
-email: your-email@domain.com
 exclude:
 - ".gitignore"
-description: 'Site for the Centre for Development Results
-
-'
+- node-modules
+description: 'Marketing site for DAI’s portfolio of work on Public Financial Management'
 baseurl:
 destination: "./build"
 sass:
