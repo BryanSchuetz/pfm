@@ -8,8 +8,8 @@ hr{
   width: 100%;
 }
 .big-wrap, header, footer{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: .1rem;
+  padding-bottom: .1rem;
   @include clearfix;
   @include min-width(3.5);
   margin: auto;
@@ -32,219 +32,44 @@ hr{
 }
 
 // 🎌The Header🎌
+
+svg.flag{
+  height: 2rem;
+  width: 4rem;
+  display: block;
+  float: left;
+}
 .header-wrap{
-  position: relative;
+  background-color: #303B40;
   color: white;
-  overflow: hidden;
-}
-.svg-wrap{
-  background-color: $black;
-  z-index: -1;
+  background-image: url(/assets/lra.jpg);
+  background-position: center;
+  background-size: cover;
   width: 100%;
-  height: 285px;
-  @include responsive(small-screens){
-    height: 220px;
+  height: 35rem;
+  .shader{
+    background: -moz-linear-gradient(to bottom, rgba(36,45,49,1) 20%, rgba(36,45,49,0.9) 40%, rgba(36,45,49,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to bottom, rgba(36,45,49,1) 20%, rgba(36,45,49,0.9) 40%, rgba(36,45,49,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -ms-linear-gradient(to bottom, rgba(36,45,49,1) 20%, rgba(36,45,49,0.9) 40%, rgba(36,45,49,0) 100%);
+    background: linear-gradient(to bottom, rgba(36,45,49,1) 20%, rgba(36,45,49,0.9) 40%, rgba(36,45,49,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ba000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    position: relative;
+    top: -10px;
+    padding-bottom: 20px;
   }
-  @include responsive(medium-screens){
-    height: 273px;
-  }
-  @include responsive(wide-screens){
-    height: 244px;
-  }
-  position: absolute;
-  overflow: hidden;
-}
-.logo-svg{
-  width: 20rem;
-  height: 20rem;
-  position: absolute;
-  left: -16rem;
-  @include responsive(small-screens){
-    left: -15rem;
-  }
-  @include responsive(medium-screens){
-    left: -12rem;
-  }
-  @include responsive(wide-screens){
-
-  }
-  /*@include responsive(ultra-wide-screens){
-    left: -10rem;
-  }*/
-
-  top: -1rem;
-}
-#policy{
-  fill: $yellow;
-}
-#debate{
-  fill: $purple;
-}
-#members{
-  fill: $orange;
-}
-.logo-svg{
-    animation-name: ckw;
-    animation-duration: 240s;
-    animation-iteration-count: infinite;
-    transform-origin: 60% 40%;
-    display: inline-block;
-}
-@keyframes ckw {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(-360deg);
-    }
-}
-header{
-  z-index: 2;
   a{
     color: white;
     text-decoration: none;
-    border-bottom: 2px solid $black;
-    transition: border-bottom 0.5s ease-in-out;
   }
-  a.active{
-    color: $blue;
-    border-bottom: 2px solid $blue;
-  }
-  a:hover{
+  a:visited{
     color: white;
-    border-bottom: 2px solid $blue;
+    text-decoration: none;
   }
-  h1{
-    text-align: center;
-    line-height: 2rem;
-      @include responsive(small-screens){
-        font-size: 2rem;
-        line-height: 2rem;
-      }
-      @include responsive(medium-screens){
-        font-size: 3rem;
-        line-height: 3rem;
-      }
-      @include responsive(wide-screens){
-        font-size: 3.2rem;
-        line-height: 3.2rem;
-      }
-  }
-}
-.content-logo{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  background-color: $black;
-  margin-top: 2rem;
-}
-.content-logo-svg{
-  width: 10rem;
-  height: 10rem;
-  @include responsive(medium-screens){
-    width: 20rem;
+  header{
     height: 20rem;
   }
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 }
-/*Navigation*/
-.nav-list{
-  list-style-type: none;
-  padding-left: 0;
 
-  li{
-    display: block;
-    float: right;
-    margin-right: 1rem;
-  }
-}
-// 🎌Content🎌
-.page-content{
-  @include clearfix;
-}
-.aims{
-  width: 3.5rem;
-  height: 3.5rem;
-  float: left;
-  margin-right: .5rem;
-  @include responsive(small-screens){
-    width: 4rem;
-    height: 4rem;
-  }
-  @include responsive(wide-screens){
-    width: 6rem;
-    height: 6rem;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    float: none;
-  }
-}
-.member{
-  @include clearfix;
-  margin-bottom: 3rem;
-}
-img.member-image{
-  display: none;
-  width: 6rem;
-  padding-right: .5rem;
-  padding-left: .5rem;
-  border: 1px solid rgba($black, 0.3);
-  @include responsive(small-screens){
-    display: block;
-    float: left;
-    margin-right: $gutter;
-    margin-top: .5rem;
-    @include width(2);
-  }
-  @include responsive(wide-screens){
-    @include width(3);
-  }
-}
-.member-summary{
-  @include responsive(small-screens){
-    float: right;
-    @include width(4);
-    margin-top: 0;
-  }
-  @include responsive(medium-screens){
-    @include width(6);
-  }
-  @include responsive(wide-screens){
-    @include width(9);
-  }
-}
-.aim-blocks{
-  @include clearfix;
-  @include responsive(wide-screens){
-    border-top: 1px solid rgba($black, 0.3);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid rgba($black, 0.3);
-  }
-}
-.aim-block{
-  border-bottom: 1px solid rgba($black, 0.3);
-  @include responsive(wide-screens){
-    @include width(4);
-    float: left;
-    margin-right: $gutter;
-    border-bottom: 0;
-  }
-  /*@include responsive(ultra-wide-screens){
-    @include width(4.6);
-  }*/
-}
-.aim-block.last{
-  @include responsive(wide-screens){
-    margin-right: 0;
-  }
-}
-.article{
-  @include clearfix;
-  margin-bottom: 2rem;
-}
 img.float-left{
   float: left;
   width: 20%;
@@ -271,71 +96,7 @@ blockquote{
   border-left: 2px solid $orange;
   padding-left: 1rem;
 }
-.read-more{
-float: right;
-font-family: 'futura-pt', helvetica, sans-serif;
-text-transform: uppercase;
-border: 1px solid $blue !important;
-padding-left: .5rem;
-padding-right: .5rem;
-border-radius: 3px;
-font-size: .9rem;
-font-weight: 700;
-}
-.read-more:hover{
-  border: 1px solid darken($blue, 10%) !important;
-}
-.more--icon{
-  height: 1.2rem;
-  width: 1.2rem;
-  position: relative;
-  top: .4rem;
-}
-.big-button{
-  border-bottom: 0 !important;
-  display: block;
-  @include responsive(medium-screens){
-    width: 50%;
-  }
-  margin-right: auto;
-  margin-left: auto;
-  padding: .5rem;
-  font-size: 1.5rem;
-  font-family: 'futura-pt', helvetica, sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  color: white !important;
-  background-color: $blue;
-  border-radius: 50px;
-  margin-bottom: 3rem;
-  margin-top: 2rem;
-}
-.big-button:hover{
-  background-color: darken($blue, 10%);
-}
 
-.publication{
-  margin-bottom: 2rem;
-  @include clearfix;
-  img{
-  @include responsive(medium-screens){
-    width: 25%;
-    float: left;
-  }
-
-  }
-  .publication-summary{
-  @include responsive(medium-screens){
-    width: 70%;
-    float: right;
-  }
-
-  }
-  .publication-link{
-    text-align: right;
-    clear: both;
-  }
-}
 // 🎌The Footer🎌
 .colophon{
   text-align: center;
@@ -345,44 +106,6 @@ font-weight: 700;
   top: 10px;
   }
 }
-// 🎌Pagination🎌
-.pagination{
-  margin: 4rem auto 1rem auto;
-  font-family: 'Archivo Narrow';
-  padding: .5rem;
-  background-color: lighten($gray, 30%);
-  span, a{
-    display: inline-block;
-    padding: 1rem 1rem;
-    @include responsive(medium-screens){
-      padding: 1rem 2rem;
-    }
-    text-align: center;
-    text-decoration: none;
-    border-radius: .2rem;
-  }
-}
-.pagination a{
-  border: 2px solid $blue;
-  a:hover{
-    border: 2px solid darken($blue, 10%);
-  }
-}
-.pagination span{
-  border: 2px solid black;
-}
-.previous{
-float: right;
-}
-.next{
-  float: left;
-}
-.page_number{
-  text-align: center;
-  margin-top: .5rem;
-  font-family: 'Archivo Narrow';
-}
-// 🎌Footer🎌
 
 footer{
   margin-top: 1rem;
@@ -390,16 +113,5 @@ footer{
   padding-bottom: 3rem;
 }
 .footer-wrap{
-  background-color: $black;
-}
-.footer-links{
-  text-align: right;
-}
-.footer-links a{
-  color: white;
-  text-decoration: none;
-  font-family: 'futura-pt', helvetica, sans-serif;
-}
-.footer-links a:hover{
-  border-bottom: 2px solid $blue;
+  background-color: #303B40;
 }
