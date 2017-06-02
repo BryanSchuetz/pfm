@@ -5,7 +5,7 @@ module.exports = {
   "open": false,
   "notify": false,
   // "reloadDelay": 5000,
-  "reloadDebounce": 1000,
+  // "reloadDebounce": 1000,
   "serveStatic": [
     'build'
   ],

@@ -181,8 +181,19 @@ blockquote{
 }
 .collection-block{
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   @include clearfix;
+}
+.collection hr{
+  margin-bottom: 1.5rem;
+}
+.primary-block--button.collection{
+  margin-bottom: 3rem;
+}
+.primary-block--button.solution{
+  margin-bottom: 5rem;
+}
+.collection-block.expert{
   a{
     color: $text-white;
     :hover{
@@ -195,6 +206,9 @@ blockquote{
       color: $text-white;
     }
   }
+}
+.collection-block--title{
+  margin-bottom: 0px;
 }
 .collection-block--details{
   font-size: .9rem;
