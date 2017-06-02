@@ -1,8 +1,15 @@
 $width-tiny: 15rem; //4bits 240px
 $width-small: 30rem; //6bits 480px
-$width-medium: 37.5rem; //8bits 600px
+$width-medium: 37.5rem; //8bits 590px
 $width-wide: 57rem; //12bits 912px
 $ultra-wide: 67rem; //14bits 1072px
+
+// Font-weights in CSS for proxima nova
+// thin: 100
+// light: 300
+// regular: 400
+// bold: 700
+// black: 900
 
 // 🎌 Responsve mixin for bubbling up media queries, have a look at the layout partial to see how they're used 🎌
 
@@ -89,7 +96,7 @@ $cols16: (16 * ($column + $gutter) - $gutter) / $em;
 }
 
 // 🎌Color Variables🎌
-
+$link_green: #74BC70; 
 $blue: #26B9D1;
 $yellow: #FDC608;
 $orange: #E9511D;
@@ -98,3 +105,15 @@ $black: #333333;
 
 $red: #a24249;
 $gray: #a0a1b3;
+$emphasis: #313437;
+$nav_black: #1c242b;
+$nav_gray: #f2f0ed;
+$link_green: #74BC70;
+$nav_links: #c8c6c2;
+$nav_links-main: #aaa7a2;
+$nav_links-main--current: #323940;
+$slate: #303B40;
+$nav_links-footer--blue: #8FC3EA;
+$button-green: rgb(116, 188, 112);
+$text-white: rgb(255, 255, 255);
+$node-nav--inactive: #c8c6c2;

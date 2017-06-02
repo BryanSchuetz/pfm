@@ -4,13 +4,33 @@ layout: default
 
 <div class="post">
   <div class="post-colophon">
-    <a class="post-colophon--logo" href="https://www.dai.com"><svg class="flag" viewBox="0 0 371 245" preserveAspectRatio="xMinYMax meet"><use xlink:href="#flag"></use></svg></a>
+    <a class="post-colophon--logo" href="https://www.dai.com"><svg class="logo" viewBox="0 0 982 245" preserveAspectRatio="xMinYMax meet"><use xlink:href="#logo-flag"></use></svg></a>
     <p>
       <strong>DAI</strong> works on the frontlines of international development. Transforming ideas into action—action into impact. We are committed to shaping a more livable world.
     </p>
+    <div class="collection">
+    {% assign sorted_experts = site.data.people | sort:"lastname" %}
+    {% for expert in sorted_experts %}
+      <div class="collection-block expert">
+          <a href="https://www.dai.com/{{ expert.permalink }}"><img src="{% unless expert.image contains 'https' %}https://www.dai.com/{% endunless %}{{ expert.image }}">
+          <div class="collection-block--details">
+            <span class="expert-name">{{ expert.title }}</span> 
+            {{ expert.job-title | markdownify }}
+          </div></a>
+      </div>
+    {% endfor %}
+      <div class="collection-block project">
+        {% for project in site.data.projects limit: 1 %}
+          <a href="https://www.dai.com/{{ project.permalink }}">{{ project.title }}</a>
+          {{ project.summary | markdownify }}
+        {% endfor %}
+      </div>
+    </div>
   </div>
   <article class="post-content">
+    <p class="lead-in">{{ page.lead | markdownify | remove:"<p>" | remove:"</p>" }}</p>
     {{ content }}
   </article>
+
 
 </div>
