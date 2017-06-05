@@ -13,24 +13,28 @@ layout: default
       <strong>DAI</strong> works on the frontlines of international development. Transforming ideas into action—action into impact. We are committed to shaping a more livable world.
     </p>
     <div class="collection">
-    {% assign sorted_experts = site.data.people | sort:"lastname" %}
-    {% for expert in sorted_experts limit: 3 %}
-      <div class="collection-block expert">
-        <a href="https://www.dai.com/{{ expert.permalink }}"><img src="{% unless expert.image contains 'https' %}https://www.dai.com/{% endunless %}{{ expert.image }}">
-        <div class="collection-block--details">
-          <span class="expert-name">{{ expert.title }}</span> 
-          {{ expert.job-title | markdownify }}
-        </div></a>
+      <div class="collection-blocks">
+      {% assign sorted_experts = site.data.people | sort:"lastname" %}
+      {% for expert in sorted_experts limit: 4 %}
+        <div class="collection-block expert {% cycle 'odd', 'even' %}">
+          <a href="https://www.dai.com/{{ expert.permalink }}"><img src="{% unless expert.image contains 'https' %}https://www.dai.com/{% endunless %}{{ expert.image }}">
+          <div class="collection-block--details">
+            <span class="expert-name">{{ expert.title }}</span> 
+            {{ expert.job-title | markdownify }}
+          </div></a>
+        </div>
+      {% endfor %}
       </div>
-    {% endfor %}
-    <a href="" class="primary-block--button collection" target="blank">Find More People<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
-      <div class="collection-block project">
-        {% for project in site.data.projects limit: 3  %}
+    <a href="/experts" class="primary-block--button collection" target="blank">Find More Experts<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+    <div class="collection-blocks">
+      {% for project in site.data.projects limit: 4  %}
+      <div class="collection-block project {% cycle 'projects': 'odd', 'even' %}">
           <a class="project--title" href="https://www.dai.com/{{ project.permalink }}">{{ project.title }}</a>
           {{ project.summary | markdownify }}
-        {% endfor %}
       </div>
-      <a href="" class="primary-block--button collection" target="blank">See More Projects<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+      {% endfor %}
+    </div>
+    <a href="" class="primary-block--button collection" target="blank">See More Projects<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
     </div>
   </div>
 

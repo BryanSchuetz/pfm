@@ -27,6 +27,7 @@ Select Results
   regions:
     - Eastern Europe and Central Asia
   client: "U.S. Agency for International DevelopmentU.K. Foreign and Commonwealth Office"
+  permalink: "/our-work/projects/afghanistan-assistance-legislative-bodies-afghanistan-alba"
 
 - title: "El Salvador—Fiscal Policy and Expenditure Management Program (FPEMP)"
   summary: "The FPEMP project is helping the Government of El Salvador (GOES) increase tax revenue, without raising rates, and achieve greater transparency and accountability, and more efficiently use public resources."
@@ -80,6 +81,7 @@ Select Results
   regions:
     - Latin America and the Caribbean
   client: "U.S. Agency for International Development"
+  permalink: "/our-work/projects/el-salvador-fiscal-policy-and-expenditure-management-program-fpemp"
 
 - title: "Ethiopia—Tax, Audit, and Transparency Programme (TAUT)"
   summary: "Though Ethiopia has achieved dramatic increases in economic growth and some successes in reducing poverty rates, the country's challenges remain substantial; gross domestic product (GDP) per capita continues to be one of the lowest in the world, revenue collection lags behind growth rates, and incentives for private sector growth are limited."
@@ -109,6 +111,7 @@ Select Results
   regions:
     - Sub-Saharan Africa
   client: "U.K. Department for International Development"
+  permalink: "/our-work/projects/ethiopia-tax-audit-and-transparency-programme-taut"
 
 - title: "Guatemala—Nexos Locales"
   summary: "Nexos Locales is working with 30 Feed the Future municipalities in Guatemala's Western Highlands to foster more responsive, inclusive, and effective socio-economic development while reducing local vulnerabilities such as food insecurity and natural disasters. To achieve this goal, the project works at the intersection—or nexos—of good governance."
@@ -130,6 +133,7 @@ Sample Activities
   regions:
     - Latin America and the Caribbean
   client: "U.S. Agency for International Development"
+  permalink: "/our-work/projects/guatemala-nexos-locales"
 
 - title: "Jordan—Fiscal Reform Project II and Bridge Activity (FRP II, FRP Bridge)"
   summary: "By 2009, years of organic and poorly planned growth in the Kingdom of Jordan had produced a large and unwieldy government bureaucracy accounting for 13 percent of the national workforce."
@@ -179,6 +183,7 @@ Select Results (FRP II and FRP Bridge)
   regions:
     - Middle East and North Africa
   client: "U.S. Agency for International Development"
+  permalink: "/our-work/projects/jordan-fiscal-reform-project-ii-and-bridge-activity-frp-ii-frp-bridge"
 
 - title: "Liberia—Revenue Generation for Governance and Growth (RG3)"
   summary: "Enhancing the government of Liberia's ability to collect taxes from its citizens, known as domestic revenue mobilization (DRM), is a critical part of helping the country meet the long-term development goals laid out in its ambitious Agenda for Transformation.
@@ -206,6 +211,7 @@ Sample Activities
   regions:
     - Sub-Saharan Africa
   client: "U.S. Agency for International Development"
+  permalink: "/our-work/projects/liberia-revenue-generation-governance-and-growth-rg3"
 
 - title: "Nigeria—Accountable, Responsive, and Capable Government (ARC)"
   summary: "Nigeria is Africa’s largest economy and one that continues to grows in size and dynamism. However, inefficient resource management, corruption, and a lack of accountability have undermined the government’s ability to translate this economic progress into inclusive growth and improved public services for more Nigerians."
@@ -235,6 +241,7 @@ Select Results
   regions:
     - Sub-Saharan Africa
   client: "U.K. Department for International Development"
+  permalink: "/our-work/projects/nigeria-state-partnership-accountability-responsiveness-and-capability-sparc"
 
 - title: "Philippines—Facilitating Public Investment (FPI)"
   summary: "With reform-minded leadership and the commitment of the United States and Philippine governments to transformational change—embodied in their joint Partnership for Growth—the Philippines has a rare opportunity to address some critical fiscal issues."
@@ -264,6 +271,7 @@ Select Results
   regions:
     - Asia and the Pacific
   client: "U.S. Agency for International Development"
+  permalink: "/our-work/projects/philippines-facilitating-public-investment-fpi"
 
 - title: "African, Caribbean and Pacific–European Union Microfinance Programme"
   summary: "It is easy for people with access to financial services to make safe and sensible decisions on loans, savings, money transfers, and insurance. But in the African, Caribbean and Pacific (ACP) Group of States, 71 percent of adults lack access to a bank."
@@ -294,6 +302,7 @@ Select Results
   regions:
     - Worldwide
   client: "European Commission"
+  permalink: "/our-work/projects/african-caribbean-and-pacific-european-union-microfinance-programme"
 
 - title: "Cambodia—Public Financial Management Reform Programme"
   summary: "The Royal Government of Cambodia has successfully designed and implemented a comprehensive four-stage public financial reform plan supported by 10 development partners, including the European Commission, the U.K. Department for International Development, and AusAID.
@@ -311,6 +320,7 @@ Sample Activities
   regions:
     - Asia and the Pacific
   client: "World BankCambodian Government"
+  permalink: "/our-work/projects/cambodia-public-financial-management-reform-programme"
 
 - title: "Slovakia—SME Finance Facility—OTP Banka Slovensko"
   summary: "OTP Banka Slovensko is an institution that has historically focused on corporate lending. In 2005, the bank looked to diversify its portfolio and decided to incorporate small and medium-sized enterprise (SME) lending into its strategy. DAI was asked to redesign the analysis and approval process to meet the realities of the SME sector.
@@ -328,6 +338,7 @@ Sample Activities
   regions:
     - Eastern Europe and Central Asia
   client: "European Bank for Reconstruction and Development"
+  permalink: "/our-work/projects/slovakia-sme-finance-facility-otp-banka-slovensko"
 
 - title: "Slovenia—SME Finance Facility—Volksbank Ljudska"
   summary: "Having identified a need to deepen small and medium-sized enterprise (SME) credit markets in Slovenia, the European Bank for Reconstruction and Development undertook this project with the aim of building financial intermediaries' confidence and capacity to assess risks and extend financing to Slovenian SMEs. DAI was contracted to design an appropriate lending methodology to allow Volksbank to substantially increase its SME lending activities.
@@ -354,6 +365,7 @@ Select Results
   regions:
     - Eastern Europe and Central Asia
   client: "European Bank for Reconstruction and Development"
+  permalink: "/our-work/projects/slovenia-sme-finance-facility-volksbank-ljudska"
 
 - title: "Tajikistan—Support to Parliamentary Oversight of the Public Financial Management Process in the Tajikistan Parliament"
   summary: "DAI will offer technical assistance, advice, and training to the Tajik Parliament to support its oversight responsibilities for more effective management of public finances, resulting in greater transparency and accountability."
@@ -368,6 +380,7 @@ Sample Activities
   regions:
     - Eastern Europe and Central Asia
   client: "U.K. Department for International Development"
+  permalink: "/our-work/projects/tajikistan-support-parliamentary-oversight-public-financial-management-process"
 
 - title: "Ukraine—Aval Raiffeisen Bank Ukraine"
   summary: "Since its inception in 1992, Raiffeisenbank Aval (AVAL) has strengthened its position in the Ukrainian market through an extensive branch network and a strong customer deposit base.
@@ -400,6 +413,7 @@ Select Results
   regions:
     - Eastern Europe and Central Asia
   client: "European Bank for Reconstruction and Development"
+  permalink: "/our-work/projects/ukraine-aval-raiffeisen-bank-ukraine"
 
 - title: "Worldwide—Fiscal Reform and Economic Governance"
   summary: "For nearly a decade, DAI worked with the U.S Agency for International Development (USAID)'s Office of Economic Growth to support public finance and broader economic governance reforms in developing, transition, and post-conflict countries, with a focus on how to tax fairly and effectively, forge credible national budgets, spend taxpayer dollars more prudently, and broaden the public-private dialogue on fiscal policy choices.
@@ -428,6 +442,7 @@ Select Results
   regions:
     - Worldwide
   client: "U.S. Agency for International Development"
+  permalink: "/our-work/projects/worldwide-fiscal-reform-and-economic-governance"
 
 - title: "Guatemala—Fiscal and Procurement Reform Project (FPRP)"
   summary: "The Government of Guatemala’s anemic ratio of tax revenue-to-gross domestic product means the country cannot afford to provide critical public services. The project team will assist the government to increase domestic resource mobilization, enhance transparency and accountability, and support public procurement reform."
@@ -454,3 +469,4 @@ Sample Activities
   regions:
     - Latin America and the Caribbean
   client: "U.S. Agency for International Development"
+  permalink: "/our-work/projects/guatemala-fiscal-and-procurement-reform-project-fprp"

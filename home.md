@@ -3,9 +3,9 @@ title: PFM
 permalink: "/"
 position: 0
 layout: home
-lead: "Financing service delivery, and state operations is the core of good governance. <strong>DAI works with clients around the world to collect and utilize resources in the most efficient and effective ways.</strong> This includes a sound management of the budget planning and allocation process as well as streamlined and effective revenue generation and administration."
+lead: "<strong>Financing service delivery, and state operations is the core of good governance.</strong> DAI works with clients around the world to collect and utilize resources in the most efficient and effective ways. This includes a sound management of the budget planning and allocation process as well as streamlined and effective revenue generation and administration."
 ---
-
+<hr>
 ## Domestic Revenue Mobilization
 
 Due to limited resources, corruption, mismanagement, or other binding constraints, many developing countries are not able to fully finance vital services such as health, education, infrastructure, or citizen security. Such countries have historically turned to international donors for help bridging this funding gap. But, domestic resource mobilization (DRM) is an alternative way to assist developing countries to address their funding needs. 

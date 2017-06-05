@@ -3,10 +3,22 @@ layout: default
 ---
 
 <div class="post">
-    <h1>{{ page.title }}</h1>
-
+  <div class="post-colophon">
+    <a class="post-colophon--logo" href="https://www.dai.com"><svg class="logo" viewBox="0 0 982 245" preserveAspectRatio="xMinYMax meet"><use xlink:href="#logo-flag"></use></svg></a>
+    <p>
+      <strong>DAI</strong> works on the frontlines of international development. Transforming ideas into action—action into impact. We are committed to shaping a more livable world.
+    </p>
+  </div>
   <article class="post-content">
+    <h1 class="page-lead-title">{{ page.title }}</h1>
     {{ content }}
+    {% if page.title == 'PFM Experts' %}
+      {% assign sorted_experts = site.data.people | sort:"lastname" %}
+      {% for expert in sorted_experts %}
+        <h2><a href="https://www.dai.com/{{ expert.permalink }}">{{ expert.title }}</a></h2>
+        <p><strong>{{ expert.job-title }}</strong></p>
+        {{ expert.summary }}
+      {% endfor %}
+    {% endif %}
   </article>
-
 </div>

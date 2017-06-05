@@ -14,7 +14,7 @@ hr{
   @include min-width(3.5);
   margin: auto;
   @include responsive(tiny-screens){
-    @include width(4);
+    @include width(5);
   }
   @include responsive(small-screens){
     @include width(6);
@@ -27,6 +27,9 @@ hr{
   }
   @include responsive(ultra-wide-screens){
     @include width(14);
+  }
+  @include responsive(extra-ultra-wide-screens){
+    @include width(16);
   }
   min-width: 16.5rem;
 }
@@ -78,8 +81,12 @@ nav{
   width: 100%;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  padding-right: 4rem;
-  padding-left: 4rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  @include responsive(medium-screens){
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
   margin-top: 0;
   background-color: rgba(36,45,49,1);
   position: fixed;
@@ -90,11 +97,14 @@ nav{
     margin: 0;
     li{
       float: right;
-      margin-left: $gutter;
       color: white;
       margin-bottom: 0;
       margin-top: 0;
       list-style: none;
+      margin-left: .5rem;
+      @include responsive(medium-screens){
+        margin-left: .9rem;
+      }
     }
   }
 }
@@ -127,17 +137,18 @@ blockquote{
 
 // 🎌Content🎌
 .post-content{
-  @include width(4);
+  @include width(5);
   margin-top: 3rem;
   @include responsive(small-screens){
     @include width(6);
   }
   @include responsive(medium-screens){
-    float: right;
-    @include width(4);
+    float: none ;
+    @include width(8);
     margin-top: 1.4rem;
   }
   @include responsive(wide-screens){
+    float: right;
     @include width(8);
   }
   @include responsive(ultra-wide-screens){
@@ -149,7 +160,7 @@ blockquote{
   }
 }
 .post-colophon{
-  @include width(4);
+  @include width(5);
   margin-top: 3rem;
   .post-colophon--logo{
     border-bottom: 0px solid white;
@@ -167,9 +178,8 @@ blockquote{
     }
   }
   @include responsive(medium-screens){
-    @include width(4);
-    float: left;
-    margin-right: $gutter;
+    @include width(8);
+    float: none;
     .post-colophon--logo{
       display: block;
       @include width(3);
@@ -178,11 +188,34 @@ blockquote{
       margin-top: 0;
     }
   }
+  @include responsive(wide-screens){
+    @include width(4);
+    float: left;
+    margin-right: $gutter;
+  }
+  @include responsive(extra-ultra-wide-screens){
+    @include width(6);
+  }
+}
+.collection-blocks{
+  @include clearfix;
 }
 .collection-block{
   position: relative;
   margin-bottom: 1rem;
   @include clearfix;
+  @include responsive(small-screens){
+    @include width(3);
+    float: left;
+  }
+  @include responsive(medium-screens){
+    @include width(4);
+  }
+}
+.collection-block.odd{
+  @include responsive(small-screens){
+    margin-right: $gutter;
+  }
 }
 .collection hr{
   margin-bottom: 1.5rem;
@@ -205,6 +238,14 @@ blockquote{
     :focus{
       color: $text-white;
     }
+  }
+  @include responsive(extra-ultra-wide-screens){
+    @include width(3);
+  }
+}
+.collection-block.project{
+    @include responsive(extra-ultra-wide-screens){
+    @include width(6);
   }
 }
 .collection-block--title{
@@ -257,6 +298,10 @@ a.primary-block--button{
   position: relative;
   top: .3rem;
   float: right;
+}
+.post{
+  @include clearfix;
+  margin-bottom: 3rem;
 }
 // 🎌The Footer🎌
 .colophon{

@@ -28,7 +28,10 @@ body{
 .svg{
   fill: currentColor;
 }
-
+.page-content h1.page-lead-title{
+  text-align: left;
+  font-weight: bold;
+}
 // 🎌Navigational Links🎌
 .more a{
   font-family:  'Proxima Nova', 'Helvetica', 'Arial', sans-serif;
@@ -49,6 +52,19 @@ a.post-colophon--logo{
   @include responsive(small-screens){
     font-size: 4rem;
     line-height: 4.5rem;
+  }
+} 
+
+nav a{
+  &.active{
+    border-bottom: 1px solid $text-white;
+  }
+  font-size: .6rem;
+  @include responsive(small-screens){
+    font-size: .7rem;
+  }
+  @include responsive(medium-screens){
+    font-size: .9rem;
   }
 }
 h2, h3{

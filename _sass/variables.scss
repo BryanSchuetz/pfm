@@ -1,8 +1,9 @@
 $width-tiny: 15rem; //4bits 240px
 $width-small: 30rem; //6bits 480px
-$width-medium: 37.5rem; //8bits 590px
+$width-medium: 37.5rem; //8bits 600px
 $width-wide: 57rem; //12bits 912px
 $ultra-wide: 67rem; //14bits 1072px
+$extra-ultra-wide: 77rem; //1232 /16bits
 
 // Font-weights in CSS for proxima nova
 // thin: 100
@@ -36,6 +37,11 @@ $ultra-wide: 67rem; //14bits 1072px
   }
   @else if $width == ultra-wide-screens{
     @media screen and (min-width: $ultra-wide){
+      @content;
+    }
+  }
+  @else if $width == extra-ultra-wide-screens{
+    @media screen and (min-width: $extra-ultra-wide){
       @content;
     }
   }
