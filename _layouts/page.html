@@ -12,12 +12,31 @@ layout: default
   <article class="post-content">
     <h1 class="page-lead-title">{{ page.title }}</h1>
     {{ content }}
-    {% if page.title == 'PFM Experts' %}
+    <br>
+    {% if page.title == 'Our PFM Experts' %}
       {% assign sorted_experts = site.data.people | sort:"lastname" %}
       {% for expert in sorted_experts %}
-        <h2><a href="https://www.dai.com/{{ expert.permalink }}">{{ expert.title }}</a></h2>
-        <p><strong>{{ expert.job-title }}</strong></p>
-        {{ expert.summary }}
+      <div class="expert-block">
+        <img src="{{ expert.image }}">
+        <h2 class="name">{{ expert.title }}</h2>
+        <p class="title"><strong>{{ expert.job-title }}</strong></p>
+        <p class="summary">{{ expert.summary | markdownify | remove:'<p>' | remove:'</p>' }}</p>
+        <a href="https://www.dai.com/{{ expert.permalink }}" class="primary-block--button" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+        <hr>
+      </div>
+      {% endfor %}
+    {% endif %}
+    {% if page.title == 'Our PFM Projects' %}
+      {% assign sorted_projects = site.data.projects | sort:"title" %}
+      {% for project in sorted_projects %}
+        <div class="project-block">
+          <h2>{{ project.title }}</h2>
+          <p class="region"><strong>Region: </strong>{{ project.regions[0] }}</p>
+          <p class="client"><strong>Client: </strong>{{ project.client }}</p>
+          {{ project.summary }}
+          <a href="https://www.dai.com/{{ project.permalink }}" class="primary-block--button" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+          <hr>
+        </div>
       {% endfor %}
     {% endif %}
   </article>

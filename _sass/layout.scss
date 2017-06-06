@@ -303,6 +303,31 @@ a.primary-block--button{
   @include clearfix;
   margin-bottom: 3rem;
 }
+.project-block, .expert-block{
+  margin-bottom: 3rem;
+  @include clearfix;
+  .primary-block--button{
+    margin: 1rem 0 3rem 0;
+    clear: both;
+  }
+  .region{
+    margin-bottom: 0;
+  }
+  .client{
+    margin-top: 0;
+  }
+  img{
+    width: 25%;
+    float: left;
+  }
+  .summary, .name, .title{
+    width: 70%;
+    float: right;
+  }
+  .name, .title{
+    margin-top: 0;
+  }
+}
 // 🎌The Footer🎌
 .colophon{
   text-align: center;

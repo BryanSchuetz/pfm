@@ -59,6 +59,9 @@ nav a{
   &.active{
     border-bottom: 1px solid $text-white;
   }
+  &:hover{
+    border-bottom: 1px solid $text-white;
+  }
   font-size: .6rem;
   @include responsive(small-screens){
     font-size: .7rem;

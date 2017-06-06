@@ -17,7 +17,7 @@ layout: default
       {% assign sorted_experts = site.data.people | sort:"lastname" %}
       {% for expert in sorted_experts limit: 4 %}
         <div class="collection-block expert {% cycle 'odd', 'even' %}">
-          <a href="https://www.dai.com/{{ expert.permalink }}"><img src="{% unless expert.image contains 'https' %}https://www.dai.com/{% endunless %}{{ expert.image }}">
+          <a href="https://www.dai.com/{{ expert.permalink }}"><img src="{{ expert.image }}">
           <div class="collection-block--details">
             <span class="expert-name">{{ expert.title }}</span> 
             {{ expert.job-title | markdownify }}
@@ -27,7 +27,7 @@ layout: default
       </div>
     <a href="/experts" class="primary-block--button collection" target="blank">Find More Experts<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
     <div class="collection-blocks">
-      {% for project in site.data.projects limit: 4  %}
+      {% for project in site.data.projects limit: 6  %}
       <div class="collection-block project {% cycle 'projects': 'odd', 'even' %}">
           <a class="project--title" href="https://www.dai.com/{{ project.permalink }}">{{ project.title }}</a>
           {{ project.summary | markdownify }}
