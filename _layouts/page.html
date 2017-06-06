@@ -13,6 +13,17 @@ layout: default
     <h1 class="page-lead-title">{{ page.title }}</h1>
     {{ content }}
     <br>
+    {% if page.title == 'News and Trends' %}
+      {% assign sorted_articles = site.data.pubs | sort:"date" %}
+      {% for article in sorted_articles %}
+        <div class="news-block">
+          <h2>{{ article.title }}</h2>
+          {{ article.summary | markdownify }}
+          <a href="{{ article.link }}" class="primary-block--button" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+          <hr>
+        </div>
+      {% endfor %}
+    {% endif %}
     {% if page.title == 'Our PFM Experts' %}
       {% assign sorted_experts = site.data.people | sort:"lastname" %}
       {% for expert in sorted_experts %}
