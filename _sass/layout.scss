@@ -131,8 +131,11 @@ aside{
   background-color: lighten($gray, 25%);
 }
 blockquote{
-  border-left: 2px solid $orange;
-  padding-left: 1rem;
+  border-left: 3px solid $link-green;
+  padding-left: .5rem;
+  font-size: 1.1rem;
+  margin-left: .6rem;
+  font-weight: bold;
 }
 
 // 🎌Content🎌

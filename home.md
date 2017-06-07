@@ -14,7 +14,7 @@ Due to limited resources, corruption, mismanagement, or other binding constraint
 
 DRM is the ability of a government to collect resources to finance its operations—through taxes, fees, levies, or other sources. DRM is a way to build the long-term fiscal sustainability and resilience of developing nations and empower countries with the fiscal tools they need to deliver improved services to their citizens now and in the future. As developing nations employ DRM tools and enhance collection, they become less reliant on outside donors to finance basic services. 
 
-<a href="" class="primary-block--button solution" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+<a href="/domestic-revenue-mobilization" class="primary-block--button solution" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
 
 ## Revenue Administration and Management
 
@@ -24,7 +24,7 @@ Taxation is at the heart of the social contract: citizens pay taxes and, in retu
 
 This does not usually involve increasing the tax burden for, particularly for the poor but instead seeks to improve compliance, streamlines revenue structure and management with existing policy and utilize existing resources more effectively. These feature improvements in human capacity, IT upgrades, and simplification of procedures. Projects may focus on collection enforcement, combatting tax fraud, improving transparency, or updating the legal framework.  
 
-<a href="" class="primary-block--button solution" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+<a href="/revenue-administration-and-management" class="primary-block--button solution" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
 
 ## Budget and Expenditure Management
 
@@ -32,4 +32,4 @@ Integral to good governing is the ability to plan and manage expenditure.  DAI w
 
 <script id="infogram_0_creating_fiscal_space_in_the_philippines" title="Creating Fiscal Space* in the Philippines" src="//e.infogr.am/js/dist/embed.js?YSq" type="text/javascript"></script>
 
-<a href="" class="primary-block--button solution" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+<a href="/budget-and-expenditure-management" class="primary-block--button solution" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>

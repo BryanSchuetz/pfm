@@ -3,18 +3,12 @@ layout: default
 ---
 
 <div class="post">
-  <div class="post-colophon">
-    <a class="post-colophon--logo" href="https://www.dai.com"><svg class="logo" viewBox="0 0 982 245" preserveAspectRatio="xMinYMax meet"><use xlink:href="#logo-flag"></use></svg></a>
-    <p>
-      <strong>DAI</strong> works on the frontlines of international development. Transforming ideas into action—action into impact. We are committed to shaping a more livable world.
-    </p>
-  </div>
   <article class="post-content">
     <h1 class="page-lead-title">{{ page.title }}</h1>
     {{ content }}
     <br>
     {% if page.title == 'News and Trends' %}
-      {% assign sorted_articles = site.data.pubs | sort:"date" %}
+      {% assign sorted_articles = site.data.pubs | sort:"date" | reverse %}
       {% for article in sorted_articles %}
         <div class="news-block">
           <h2>{{ article.title }}</h2>
@@ -51,4 +45,65 @@ layout: default
       {% endfor %}
     {% endif %}
   </article>
+  <div class="post-colophon">
+    <a class="post-colophon--logo" href="https://www.dai.com"><svg class="logo" viewBox="0 0 982 245" preserveAspectRatio="xMinYMax meet"><use xlink:href="#logo-flag"></use></svg></a>
+    <p>
+      <strong>DAI</strong> works on the frontlines of international development. Transforming ideas into action—action into impact. We are committed to shaping a more livable world.
+    </p>
+    {% if page.title == 'Our PFM Experts' %}
+      <h3>Our PFM Projects</h3>
+      <div class="collection-blocks">
+      {% for project in site.data.projects limit: 6  %}
+      <div class="collection-block project {% cycle 'projects': 'odd', 'even' %}">
+          <a class="project--title" href="https://www.dai.com/{{ project.permalink }}">{{ project.title }}</a>
+          {{ project.summary | markdownify }}
+      </div>
+      {% endfor %}
+    </div>
+    <a href="" class="primary-block--button collection" target="blank">See More Projects<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+    {% endif %}
+    {% if page.title == 'Our PFM Projects' %}
+    <h3>Our PFM Experts</h3>
+      <div class="collection-blocks">
+      {% assign sorted_experts = site.data.people | sort:"lastname" %}
+      {% for expert in sorted_experts limit: 4 %}
+        <div class="collection-block expert {% cycle 'odd', 'even' %}">
+          <a href="https://www.dai.com/{{ expert.permalink }}"><img src="{{ expert.image }}">
+          <div class="collection-block--details">
+            <span class="expert-name">{{ expert.title }}</span> 
+            {{ expert.job-title | markdownify }}
+          </div></a>
+        </div>
+      {% endfor %}
+      </div>
+    <a href="/experts" class="primary-block--button collection" target="blank">Find More Experts<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+    {% endif %}
+    {% if page.title == 'News and Trends' %}
+      <h3>Our PFM Experts</h3>
+      <div class="collection-blocks">
+      {% assign sorted_experts = site.data.people | sort:"lastname" %}
+      {% for expert in sorted_experts limit: 4 %}
+        <div class="collection-block expert {% cycle 'odd', 'even' %}">
+          <a href="https://www.dai.com/{{ expert.permalink }}"><img src="{{ expert.image }}">
+          <div class="collection-block--details">
+            <span class="expert-name">{{ expert.title }}</span> 
+            {{ expert.job-title | markdownify }}
+          </div></a>
+        </div>
+      {% endfor %}
+      </div>
+    <a href="/experts" class="primary-block--button collection" target="blank">Find More Experts<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+    <h3>Our PFM Projects</h3>
+      <div class="collection-blocks">
+      {% for project in site.data.projects limit: 6  %}
+      <div class="collection-block project {% cycle 'projects': 'odd', 'even' %}">
+          <a class="project--title" href="https://www.dai.com/{{ project.permalink }}">{{ project.title }}</a>
+          {{ project.summary | markdownify }}
+      </div>
+      {% endfor %}
+    </div>
+    <a href="" class="primary-block--button collection" target="blank">See More Projects<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+    {% endif %}
+
+  </div>
 </div>
