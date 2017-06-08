@@ -28,7 +28,7 @@ layout: default
       </div>
     <a href="/experts" class="primary-block--button collection" target="blank">Find More Experts<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
     <div class="collection-blocks">
-      <h3>Our PFM Experts</h3>
+      <h3>Our PFM Projects</h3>
       {% for project in site.data.projects limit: 6  %}
       <div class="collection-block project {% cycle 'projects': 'odd', 'even' %}">
           <a class="project--title" href="https://www.dai.com/{{ project.permalink }}">{{ project.title }}</a>
