@@ -1,5 +1,5 @@
 ---
-title: Our PFM Projects
+title: Projects
 position: 0
 layout: page
 ---

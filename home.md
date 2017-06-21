@@ -3,10 +3,9 @@ title: PFM
 permalink: "/"
 position: 0
 layout: home
-lead: "<strong>Financing service delivery, and state operations is the core of good governance.</strong> DAI works with clients around the world to collect and utilize resources in the most efficient and effective ways. This includes a sound management of the budget planning and allocation process as well as streamlined and effective revenue generation and administration."
+lead: ""
 ---
-<hr>
-## Domestic Revenue Mobilization
+# Domestic Revenue Mobilization
 
 Due to limited resources, corruption, mismanagement, or other binding constraints, many developing countries are not able to fully finance vital services such as health, education, infrastructure, or citizen security. Such countries have historically turned to international donors for help bridging this funding gap. But, domestic resource mobilization (DRM) is an alternative way to assist developing countries to address their funding needs. 
 
@@ -16,7 +15,7 @@ DRM is the ability of a government to collect resources to finance its operation
 
 <a href="/domestic-revenue-mobilization" class="primary-block--button solution" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
 
-## Revenue Administration and Management
+# Revenue Administration and Management
 
 Taxation is at the heart of the social contract: citizens pay taxes and, in return, government delivers public services. Taxation becomes more closely linked to public service delivery—and as citizens become citizen-taxpayers and hold public servants to account—DRM strengthens governance and accountability mechanisms. When the social contract is broken and citizens, particularly the wealthy, are able to avoid taxes, vital services such as health and education go underfunded, leading to a vicious cycle of underdevelopment and in many cases continuing dependency on foreign aid. To address these capacity gaps, DAI works with clients and counterparts to improve efficiency and effectiveness of revenue collection and use. 
 
@@ -26,7 +25,7 @@ This does not usually involve increasing the tax burden for, particularly for th
 
 <a href="/revenue-administration-and-management" class="primary-block--button solution" target="blank">Read More<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
 
-## Budget and Expenditure Management
+# Budget and Expenditure Management
 
 Integral to good governing is the ability to plan and manage expenditure.  DAI works with national, provincial, local and municipal governments to build commitment and capacity to responsible and effective expenditure management.
 

@@ -4,40 +4,27 @@ layout: default
 
 <div class="post">
   <article class="post-content">
-    <p class="lead-in">{{ page.lead | markdownify | remove:"<p>" | remove:"</p>" }}</p>
     {{ content }}
   </article>
   <div class="post-colophon">
     <a class="post-colophon--logo" href="https://www.dai.com"><svg class="logo" viewBox="0 0 982 245" preserveAspectRatio="xMinYMax meet"><use xlink:href="#logo-flag"></use></svg></a>
     <p>
-      <strong>DAI</strong> works on the frontlines of international development. Transforming ideas into action—action into impact. We are committed to shaping a more livable world.
+      <strong>DAI</strong> works with clients to collect and utilize resources most effectively—including sound management of the budget planning and allocation process, and streamlined revenue generation and administration.
     </p>
+    <hr>
     <div class="collection">
       <div class="collection-blocks">
-      {% assign sorted_experts = site.data.people | sort:"lastname" %}
-      <h3>Our PFM Experts</h3>
-      {% for expert in sorted_experts limit: 4 %}
-        <div class="collection-block expert {% cycle 'odd', 'even' %}">
-          <a href="https://www.dai.com/{{ expert.permalink }}"><img src="{{ expert.image }}">
-          <div class="collection-block--details">
-            <span class="expert-name">{{ expert.title }}</span> 
-            {{ expert.job-title | markdownify }}
-          </div></a>
+        <h3>Tools and Resources</h3>
+        <div class="block-tool">
+          <a class="resource" href="#"><svg class="article-badge" viewBox="0 0 101 101" preserveAspectRatio="xMinYMax meet"><use xlink:href="#article-badge"></use></svg> A Great Resource: Wonky stuff</a>
+          <a class="resource" href="#"><svg class="article-badge" viewBox="0 0 101 101" preserveAspectRatio="xMinYMax meet"><use xlink:href="#article-badge"></use></svg> Ten Ways To Grow Revenue</a>
+          <a class="resource" href="#"><svg class="article-badge" viewBox="0 0 101 101" preserveAspectRatio="xMinYMax meet"><use xlink:href="#article-badge"></use></svg> What Happens <em>After</em> You Reform The Tax Code, Will Shock You</a>
         </div>
-      {% endfor %}
+        <hr>
+    <a href="/experts" class="primary-block--button collection" target="blank">Experts<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+    <a href="/projects" class="primary-block--button collection" target="blank">Projects<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
+    <a href="/news-and-trends" class="primary-block--button collection" target="blank">News & Trends<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
       </div>
-    <a href="/experts" class="primary-block--button collection" target="blank">Find More Experts<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
-    <div class="collection-blocks">
-      <h3>Our PFM Projects</h3>
-      {% for project in site.data.projects limit: 6  %}
-      <div class="collection-block project {% cycle 'projects': 'odd', 'even' %}">
-          <a class="project--title" href="https://www.dai.com/{{ project.permalink }}">{{ project.title }}</a>
-          {{ project.summary | markdownify }}
-      </div>
-      {% endfor %}
-    </div>
-    <a href="" class="primary-block--button collection" target="blank">See More Projects<svg class="redirect" viewBox="0 0 36 70" preserveAspectRatio="xMinYMax meet"><use xlink:href="#redirect"></use></svg></a>
     </div>
   </div>
-
 </div>

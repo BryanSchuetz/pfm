@@ -49,12 +49,17 @@ a.post-colophon--logo{
   font-weight: 300;
   font-size: 3rem;
   line-height: 3.5rem;
+  margin-bottom: .5rem;
   @include responsive(small-screens){
     font-size: 4rem;
     line-height: 4.5rem;
   }
 } 
-
+.post-content{
+  h1{
+    margin-top: 1.1rem;
+  }
+}
 nav a{
   &.active{
     border-bottom: 1px solid $text-white;
@@ -77,24 +82,21 @@ h2, h3{
   h1{
     font-weight: 400;
     font-size: 3rem;
-    text-align: center;
     line-height: 3rem;
     font-weight: 700;
   }
   .post-title{
     text-transform: none;
   }
-  a{
+  a, a:visited{
     color: darken($button-green, 10%);
     text-decoration: none;
-    :hover{
-      color: darken($button-green, 20%);
-      text-decoration: none;
-    }
-    :visited{
-      color: darken($button-green, 10%);
-      text-decoration: none;
-    }
+  }
+}
+.block-tool{
+  a:hover{
+    color: darken($button-green, 20%);
+    text-decoration: none;
   }
 }
 p.lead-in{
@@ -102,6 +104,13 @@ p.lead-in{
 }
 .project--title{
   font-weight: 700;
+}
+p.header-leadin{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0;
 }
 // 🎌Content🎌
 
