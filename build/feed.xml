@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Leveraging Economic Policy</title>
+    <title>The Economy of Good Governance</title>
     <description>Marketing site for DAI’s portfolio of work on Public Financial Management</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Jun 2017 12:25:09 -0400</pubDate>
-    <lastBuildDate>Mon, 19 Jun 2017 12:25:09 -0400</lastBuildDate>
+    <pubDate>Thu, 13 Jul 2017 11:56:58 -0400</pubDate>
+    <lastBuildDate>Thu, 13 Jul 2017 11:56:58 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
   </channel>

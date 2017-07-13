@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "browser-sync start --config browser-sync.js",
     "build":"bundle exec jekyll build --watch --incremental",
-    "jekyllfy": "npm run build & npm run serve"
+    "jekyllfy": "npm run build & npm run serve",
+    "aggregate": "curl https://www.dai.com/pfm-people.yml --output _data/people.yml && curl https://www.dai.com/pfm-projects.yml --output _data/projects.yml"
   },
   "repository": {
     "type": "git",

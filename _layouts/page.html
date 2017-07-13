@@ -22,7 +22,7 @@ layout: default
       {% assign sorted_experts = site.data.people | sort:"lastname" %}
       {% for expert in sorted_experts %}
       <div class="expert-block">
-        <img src="{{ expert.image }}">
+        <img src="{% unless expert.image contains "assetify" %}https://www.dai.com/{% endunless %}{{ expert.image }}">
         <h2 class="name">{{ expert.title }}</h2>
         <p class="title"><strong>{{ expert.job-title }}</strong></p>
         <p class="summary">{{ expert.summary | markdownify | remove:'<p>' | remove:'</p>' }}</p>

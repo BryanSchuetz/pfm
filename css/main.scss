@@ -7,3 +7,25 @@
 @import "normalize";
 @import "typesetting";
 @import "layout";
+
+@media print{
+  div.header-wrap div.shader{
+    background: none;
+  }
+  a.primary-block--button{
+    display: block;
+    width: 100%;
+  }
+  .big-wrap, header, footer{
+    @include width(16);
+  }
+  .post-content{
+    @include width(10);
+    float: right;
+  }
+  .post-colophon{
+    @include width(4);
+    float: left;
+    margin-right: $gutter;
+  }
+}

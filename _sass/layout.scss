@@ -33,7 +33,13 @@ hr{
   }
   min-width: 16.5rem;
 }
-
+p.colophon{
+  color: $text-white;
+  margin-bottom: 1rem;
+  .tagline{
+    margin-left: .5rem;
+  }
+}
 // 🎌The Header🎌
 
 
@@ -165,7 +171,7 @@ blockquote{
 }
 .post-colophon{
   @include width(5);
-  margin-top: 6rem;
+  margin-top: 7.8rem;
   .post-colophon--logo{
     border-bottom: 0px solid white;
       :hover{
